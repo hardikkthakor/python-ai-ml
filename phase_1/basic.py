@@ -1,0 +1,8 @@
+print("==================")
+print("My Favorite Things")
+print("==================")
+print("Food: Pizza")
+print("Color: White")
+print("Country: Germany")
+print("Goal: Become an AI engineer")
+print("===================")
