@@ -773,24 +773,32 @@ for i in range(1,6):
 # Perform the operation.
 # Handle invalid input with try/except.
 
-try:
+# try:
 
-    num1 = int(input("Enter Number 1 :"))
-    operator = input("Enter Operator (+, -, *, /) : ")
-    num2 = int(input("Enter Number 2 :"))
+#     num1 = int(input("Enter Number 1 :"))
+#     operator = input("Enter Operator (+, -, *, /) : ")
+#     num2 = int(input("Enter Number 2 :"))
 
-    if operator == "+":
-        result = num1 + num2
-    elif operator == "-":
-        result = num1 - num2
-    elif operator == "*":
-        result = num1 * num2
-    elif operator == "/":
-        result = num1 / num2
-    else:
-        print("Invalid Operators")
-        result = None
-    if result is not None:
-        print("Answer :", result)
-except ValueError:
-    print("Invalid Number")
+#     if operator == "+":
+#         result = num1 + num2
+#     elif operator == "-":
+#         result = num1 - num2
+#     elif operator == "*":
+#         result = num1 * num2
+#     elif operator == "/":
+#         result = num1 / num2
+#     else:
+#         print("Invalid Operators")
+#         result = None
+#     if result is not None:
+#         print("Answer :", result)
+# except ValueError:
+#     print("Invalid Number")
+
+
+                            #5 Temperature Converter
+
+# Create a program that converts:
+
+# Celsius → Fahrenheit
+# Fahrenheit → Celsius
