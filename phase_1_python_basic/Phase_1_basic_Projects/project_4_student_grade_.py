@@ -13,8 +13,7 @@ try:
         "Krish": 32
 
     }
-
-
+    
     max_marks = 0
     min_marks = 100
     for key, value, in student.items():
@@ -56,4 +55,3 @@ try:
             
 except ValueError:
     print("Invalid Input")
-

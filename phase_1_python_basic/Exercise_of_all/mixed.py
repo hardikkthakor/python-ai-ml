@@ -486,26 +486,26 @@ print("Odd Count =",odd)
 # Count marks >= 40
 # Count marks < 40
 
-marks = [75, 82, 45, 91, 63, 38, 55]
+# marks = [75, 82, 45, 91, 63, 38, 55]
 
-print(max(marks))
-print(min(marks))
-print(sum(marks))
+# print(max(marks))
+# print(min(marks))
+# print(sum(marks))
 
-avg = sum(marks) / len(marks)
-print("Average =",avg)
+# avg = sum(marks) / len(marks)
+# print("Average =",avg)
 
-count_1=0
-count_2=0
+# count_1=0
+# count_2=0
 
-for mark in marks:
-    if mark >=40:
-        count_1 +=1
-    else:
-        count_2 +=1
+# for mark in marks:
+#     if mark >=40:
+#         count_1 +=1
+#     else:
+#         count_2 +=1
 
-print("Marks >=40 ->",count_1)
-print("Marks <40 ->", count_2)
+# print("Marks >=40 ->",count_1)
+# print("Marks <40 ->", count_2)
 
 
                             #3 — Tuple + String Methods
@@ -533,17 +533,17 @@ else:
 # Check whether 40 exists
 # Print the final set
                           
-numbers = {10, 20, 10, 30, 40, 20, 50}
+# numbers = {10, 20, 10, 30, 40, 20, 50}
 
-print(len(numbers))
-numbers.add(60)
-numbers.discard(30)
-if 40 in numbers:
-    print("Exist")
-else:
-    print("Not Exist")
+# print(len(numbers))
+# numbers.add(60)
+# numbers.discard(30)
+# if 40 in numbers:
+#     print("Exist")
+# else:
+#     print("Not Exist")
 
-print(numbers)
+# print(numbers)
 
                                 #5 — Dictionary Practice
 # Print name
@@ -553,21 +553,21 @@ print(numbers)
 # Remove age
 # Print every key and value
 
-student = {
-    "name": "Hardik",
-    "age": 24,
-    "country": "Germany",
-    "dream": "AI Engineer"
-}
+# student = {
+#     "name": "Hardik",
+#     "age": 24,
+#     "country": "Germany",
+#     "dream": "AI Engineer"
+# }
 
-print(student["name"])
-print(student["dream"])
+# print(student["name"])
+# print(student["dream"])
 
-student["country"] = "Canada"
-student.pop("age")
+# student["country"] = "Canada"
+# student.pop("age")
 
-for key, value, in student.items():
-    print(key, "=", value)
+# for key, value, in student.items():
+#     print(key, "=", value)
 
                                 #6 — String + List
 # Count "Python"
@@ -577,40 +577,40 @@ for key, value, in student.items():
 # Print the first word
 # Print the last word
                                 
-sentence = "Python is my favorite language"
-print(sentence.count("python"))
+# sentence = "Python is my favorite language"
+# print(sentence.count("python"))
 
-print(sentence.startswith("Python"))
-print(sentence.endswith("language"))
-print(sentence.split())
-print(sentence[0])
-print(sentence[-1])
+# print(sentence.startswith("Python"))
+# print(sentence.endswith("language"))
+# print(sentence.split())
+# print(sentence[0])
+# print(sentence[-1])
 
         
                                     #7 — Function + Condition
-def is_pass(marks):
-        if marks >= 40:
-            return True
-        else:
-            return False
+# def is_pass(marks):
+#         if marks >= 40:
+#             return True
+#         else:
+#             return False
 
-print(is_pass(75))
-print(is_pass(35))
+# print(is_pass(75))
+# print(is_pass(35))
 
 
                                     #8 — Function + List
-def find_largest(numbers):
+# def find_largest(numbers):
 
-    largest = numbers[0]
+#     largest = numbers[0]
 
-    for num in numbers:
-            if num > largest:
-                largest = num
-    return largest
+#     for num in numbers:
+#             if num > largest:
+#                 largest = num
+#     return largest
 
-numbers = [25, 10, 90, 45, 60]
-Result = find_largest(numbers)
-print("The Largest Number Is =",Result)
+# numbers = [25, 10, 90, 45, 60]
+# Result = find_largest(numbers)
+# print("The Largest Number Is =",Result)
 
                                     #9 — Mixed Challenge
 # Find total
@@ -622,33 +622,33 @@ print("The Largest Number Is =",Result)
 # Count numbers >= 20
 # Count numbers < 20  
                                   
-numbers = [15, 22, 8, 35, 40, 11, 50]
-even = 0
-odd = 0
-print(sum(numbers))
+# numbers = [15, 22, 8, 35, 40, 11, 50]
+# even = 0
+# odd = 0
+# print(sum(numbers))
 
-average = sum(numbers) / len(numbers)
-print("Average =",average)
+# average = sum(numbers) / len(numbers)
+# print("Average =",average)
 
-print(min(numbers))
-print(max(numbers))
+# print(min(numbers))
+# print(max(numbers))
 
-for num in numbers:
-    if num % 2 == 0:
-        even += 1
-    else:
-        odd += 1
-print("Even Count =", even)
-print("Odd Count =", odd)
-num_1 = 0
-num_2 = 0
-for num in numbers:
-    if num >= 20:
-        num_1 += 1
-    else:
-        num_2 += 1
-print("Number >= 20 =>",num_1)
-print("Number < 20 =>",num_2)
+# for num in numbers:
+#     if num % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+# print("Even Count =", even)
+# print("Odd Count =", odd)
+# num_1 = 0
+# num_2 = 0
+# for num in numbers:
+#     if num >= 20:
+#         num_1 += 1
+#     else:
+#         num_2 += 1
+# print("Number >= 20 =>",num_1)
+# print("Number < 20 =>",num_2)
                                         #10
 
 # Print every student's name and mark.
@@ -658,40 +658,307 @@ print("Number < 20 =>",num_2)
 # Find the lowest mark.
 # Calculate the average mark.
 
-students = {
-    "Hardik": 85,
-    "Rahul": 35,
-    "Priya": 92,
-    "Aman": 45,
-    "Neha": 28
-}
+# students = {
+#     "Hardik": 85,
+#     "Rahul": 35,
+#     "Priya": 92,
+#     "Aman": 45,
+#     "Neha": 28
+# }
 
-print(students)
-pass_count =0
+# print(students)
+# pass_count =0
+# fail_count = 0
+# for marks in students.values():
+#     if marks >= 40:
+#         pass_count += 1
+#     else:
+#         fail_count += 1
+# print("Pass Count =", pass_count)
+# print("Fail Count =", fail_count)
+
+# max_marks = 0
+# min_marks = 100
+# for key, value in students.items():
+#     if value > max_marks:
+#         max_marks = value
+#     if value < min_marks:
+#         min_marks = value
+# print(max_marks)
+# print(min_marks)
+
+# total_marks = 0
+
+# for mark in students.values():
+#     total_marks += mark
+
+# average = total_marks / len(students)
+# print("Average Marks =",average)
+
+
+
+
+                                    #1 — Number Analyzer
+# Largest number
+# Smallest number
+# Total
+# Average
+# Even count
+# Odd count
+# How many numbers are >= 20
+# How many numbers are < 20
+
+# numbers = [12, 45, 7, 30, 18, 55, 9]
+
+# print(max(numbers))
+# print(min(numbers))
+# print(sum(numbers))
+
+# avg = sum(numbers) / len(numbers)
+# print("Average :", avg)
+
+# even = 0
+# odd = 0
+# num_1 = 0
+# num_2 = 0
+# for num in numbers:
+#     if num % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+       
+#     if num >= 20:  
+#         num_1 += 1
+#     else:
+#         num_2 +=1
+
+# print("Even Count :",even)
+# print("Odd Count :",odd)
+# print("Number >=20 :", num_1)
+# print("Number < 20 :",num_2)
+
+
+
+# #                                     #2 — Student Search
+# students = {
+#     "Hardik": 85,
+#     "Rahul": 35,
+#     "Priya": 92,
+#     "Aman": 45
+# }
+
+# user = input("Enter Student Name :")
+
+# if user in students:
+#     print(user,":",students[user])
+# else:
+#     print("Student Not Found")
+
+
+#                                     #3 — Word Analyzer
+# # Total characters
+# # Number of spaces
+# # Number of words
+# # Number of times "Python" appears
+# # Sentence in uppercase
+# # Sentence in lowercase
+
+# sentence = input("Enter Your Sentence :")
+
+# print(len(sentence))
+# print(sentence.count(" "))
+# print(sentence.count("Python"))
+# print(sentence.upper())
+# print(sentence.lower())
+# print(sentence.startswith("I"))
+
+
+#                                     # 4 — Safe Calculator Function
+
+# # Invalid number
+# # Division by zero
+# # Invalid operator
+# try:
+#     number_1 = int(input("Enter Number 1:"))
+#     operators = input("Enter Operators (+, -, *, /) :")
+#     number_2 = int(input("Enter Number 2: "))
+
+#     if operators == "+":
+#         result = number_1 + number_2
+#     elif operators == "-":
+#         result = number_1 - number_2
+#     elif operators == "*":
+#         result = number_1 * number_2
+#     elif operators == "/":
+#         result = number_1 / number_2
+#     else:
+#         print("Invalid Operator")
+#         result = None
+#     if result is not None:
+#         print("Answer :", result)
+# except ValueError:
+#     print("Invalid Input")
+# except ZeroDivisionError:
+#     print("Cannot Divide By Zero")
+
+
+
+                                    #5 — Mini Student System
+
+
+# try:
+#     students = {
+#         "Hardik" : 85,
+#         "Rahul" : 35,
+#         "Priya" : 92,
+#         "Aman" : 45
+#     }
+
+#     max_marks = 0
+#     min_marks = 100
+
+#     for key,value, in students.items():
+#         if value > max_marks:
+#             max_marks = value
+#         if value < min_marks: 
+#             min_marks = value
+
+#     print("Highest Marks :",max_marks)
+#     print("Lowest Marks :",min_marks)
+
+#     total = sum(students.values())
+#     print("Total :",total)
+
+#     avg = total / len(students)
+#     print("Average :", avg)
+
+#     pass_count = 0
+#     fail_count = 0
+
+#     for marks in students.values():
+#         if marks >= 40:
+#             pass_count += 1
+#         else:
+#             fail_count += 1
+#     print("Pass Count :",pass_count)
+#     print("Fail Count :", fail_count)
+
+#     search = input("Enter Student Name :")
+
+#     if search in students:
+#         print(search, ":", students[search])
+#     else:
+#         print("Student Not Found !!")
+
+#     for key,marks, in students.items():
+#         if 90<= marks <=100:
+#             print(key,":",marks,"Grade A")
+#         elif 80 <= marks <= 89:
+#             print(key,":",marks,"Grade B")
+#         elif 70 <= marks <= 79:
+#             print(key,":",marks,"Grade C")
+#         elif 60 <= marks <= 69:
+#             print(key,":",marks,"Grade D")
+#         elif 40 <= marks <= 59:
+#             print(key,":",marks,"Grade E")
+#         else:
+#             print(key,":",marks,"Fail")
+
+# except ValueError:
+#     print("Invalid Input") 
+ 
+
+#===============================
+#Largest
+# Smallest
+# Average
+# Even count
+# Odd count
+
+# numbers = [15, 8, 42, 23, 10, 37]
+
+# largest = 0
+# smallest = 100
+# even = 0
+# odd = 0
+# total = 0
+# for num in numbers:
+#     total = total + num
+#     if num > largest:
+#         largest = num
+#     if num < smallest:
+#         smallest = num
+#     if num % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+    
+# print("Largest Number :",largest)
+# print("Smallest Number :",smallest)
+# print("Even Count :",even)
+# print("Odd Count :",odd)
+# print("total :", total)
+
+# avg = total / len(numbers)
+# print("Average :", avg)
+
+
+
+#========================================================================
+# Display every student and their marks.
+# Count passed students (>= 40).
+# Count failed students (< 40).
+# Find the highest marks.
+# Ask the user for a student name.
+# If found → display their marks.
+# If not found → "Student Not Found".
+# Display each student's grade.
+#========================================================================
+
+students = {
+    "Hardik": 99,
+    "Bhoomi": 65,
+    "Neha" : 78,
+    "Divyesh": 45,
+    "Vishal": 21
+}
+max_marks = 0
+for key,marks , in students.items():
+    print(key,":", marks)
+    
+    if 90<= marks <=100:
+        print(key,":",marks,"Grade A")
+    elif 80 <= marks <= 89:
+        print(key,":",marks,"Grade B")
+    elif 70 <= marks <= 79:
+        print(key,":",marks,"Grade C")
+    elif 60 <= marks <= 69:
+        print(key,":",marks,"Grade D")
+    elif 40 <= marks <= 59:
+        print(key,":",marks,"Grade E")
+    else:
+        print(key,":",marks,"Fail")
+
+    if marks > max_marks:
+        max_marks = marks
+print("Highest Marks :", max_marks)
+
+pass_count = 0
 fail_count = 0
 for marks in students.values():
     if marks >= 40:
-        pass_count += 1
+        pass_count +=1
     else:
         fail_count += 1
-print("Pass Count =", pass_count)
-print("Fail Count =", fail_count)
+print("Pass Count :",pass_count)
+print("Fail Count :",fail_count)
 
-max_marks = 0
-min_marks = 100
-for key, value in students.items():
-    if value > max_marks:
-        max_marks = value
-    if value < min_marks:
-        min_marks = value
-print(max_marks)
-print(min_marks)
 
-total_marks = 0
+user = input("Enter Student Name :")
+if user in students:
+    print(user,":", students[user])
+else:
+    print("Student Not Found")
 
-for mark in students.values():
-    total_marks += mark
 
-average = total_marks / len(students)
-print("Average Marks =",average)
 
