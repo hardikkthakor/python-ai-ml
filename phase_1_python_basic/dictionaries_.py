@@ -1,7 +1,7 @@
 
 #1
 
-info = {
+"""info = {
     "name": "Hardik",
     "dream": "AI Engineer",
     "country": "Germany",
@@ -10,12 +10,12 @@ info = {
 print(info)
 print(info["name"])
 print(info["dream"])
-print(info["country"])
+print(info["country"])"""
 
 
 #2
 
-car = {
+"""car = {
     "brand": "BMW",
     "color": "Black"
 }
@@ -30,7 +30,7 @@ if "year" in car:
 else:
     print("Not Exist")
 
-print(car)
+print(car)"""
 
 
 #3

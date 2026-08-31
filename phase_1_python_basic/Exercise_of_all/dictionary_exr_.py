@@ -1,7 +1,7 @@
 
 #1
 
-student = {
+"""student = {
     "name": "Hardik",
     "age": 24,
     "country": "Germany"
@@ -19,10 +19,10 @@ student.pop("age")
 if "age" in student:
     print("Found")
 else:
-    print("Not Found")
+    print("Not Found")"""
 
 #2
-company = {
+"""company = {
     "CEO": "Sam Altman",
     "Company": "OpenAI",
     "Country": "USA"
@@ -35,10 +35,10 @@ for key in company:
     print(company[key])
 
 for key, value, in company.items():
-    print(key,":", value)
+    print(key,":", value)"""
 
 #3
-marks = {
+"""marks = {
     "Math": 85,
     "Science": 92,
     "English": 78
@@ -51,10 +51,10 @@ print(marks["English"])
 marks["English"] = 90
 
 for key, value, in marks.items():
-    print(key, "=", value)
+    print(key, "=", value)"""
 
 #4
-person = {
+"""person = {
     "name": "Hardik",
     "age": 24,
     "city": "Ahmedabad"
@@ -73,4 +73,4 @@ else:
     print("Not Exist")
 
 for key, value, in person.items():
-    print(key, ":", value)
+    print(key, ":", value)"""

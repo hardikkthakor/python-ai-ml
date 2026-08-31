@@ -1,18 +1,18 @@
 #                                     ** VARIABLES **
 
-# name = "Hardik Thakor"
-# age = 24
-# city = "Ahmedabad"
-# dream_country = "Germany"
-# favorite_language = "Python"
-# college = "Khyati College"
+"""name = "Hardik Thakor"
+age = 24
+city = "Ahmedabad"
+dream_country = "Germany"
+favorite_language = "Python"
+college = "Khyati College"
 
-# print(name)
-# print(age)
-# print(city)
-# print(dream_country)
-# print(favorite_language)
-# print(college)
+print(name)
+print(age)
+print(city)
+print(dream_country)
+print(favorite_language)
+print(college)"""
 
 
 # Takes your name as input.

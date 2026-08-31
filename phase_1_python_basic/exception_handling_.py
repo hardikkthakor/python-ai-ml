@@ -2,26 +2,26 @@
 
 
 #1====================
-# try:
-#     num = int(input("Enter a Number :"))
-#     print("You Entered :",num)
-# except ValueError:
-#     print("Invalid Number")
-
+"""try:
+    num = int(input("Enter a Number :"))
+    print("You Entered :",num)
+except ValueError:
+    print("Invalid Number")
+"""
 
 
 #2
 
-# try:
-#     num1 = int(input("Enter First Number :"))
-#     num2 = int(input('Enter Second Number :'))
-#     result = num1 / num2
-#     print("Answer =", result)
-# except ValueError:
-#     print("Invalid Input")
+"""try:
+    num1 = int(input("Enter First Number :"))
+    num2 = int(input('Enter Second Number :'))
+    result = num1 / num2
+    print("Answer =", result)
+except ValueError:
+    print("Invalid Input")
 
-# except ZeroDivisionError:
-#     print("Cannot divided by Zero")
+except ZeroDivisionError:
+    print("Cannot divided by Zero")"""
 
 
 
