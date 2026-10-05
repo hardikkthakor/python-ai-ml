@@ -1,0 +1,11 @@
+
+
+
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+
+def find_max(numbers):
+    return max(numbers)

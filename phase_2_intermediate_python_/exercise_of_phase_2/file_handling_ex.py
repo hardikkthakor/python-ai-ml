@@ -127,38 +127,56 @@ with open("friends.txt", "r") as file:
 
 #Q12 — Final Challenge
 
-def add_text():
-        text = input("Enter Text: ")
+# def add_text():
+#         text = input("Enter Text: ")
 
-        with open("data.txt", "a", encoding="utf-8") as file:
-            file.write(f"{text}\n")
+#         with open("data.txt", "a", encoding="utf-8") as file:
+#             file.write(f"{text}\n")
         
-        print("Text Added Successfully!!!")
+#         print("Text Added Successfully!!!")
 
-def view_file():
-    try:
-        with open("data.txt", "r", encoding="utf-8") as file:
-            data = file.read()
-            print(data)
+# def view_file():
+#     try:
+#         with open("data.txt", "r", encoding="utf-8") as file:
+#             data = file.read()
+#             print(data)
     
-    except FileNotFoundError:
-        print("File Not Found!!")
+#     except FileNotFoundError:
+#         print("File Not Found!!")
 
-while True:
-    print("===========File Manager============")
-    print("1.Add Text ")
-    print("2.View File ")
-    print("3.Exit ")
+# while True:
+#     print("===========File Manager============")
+#     print("1.Add Text ")
+#     print("2.View File ")
+#     print("3.Exit ")
 
 
-    choice = input("Enter Your Choice: ")
+#     choice = input("Enter Your Choice: ")
 
-    if choice == "1":
-        add_text()
-    elif choice == "2":
-        view_file()
-    elif choice == "3":
-        print("Exiting..")
-        break
-    else:
-        print("Invalid Choice")
+#     if choice == "1":
+#         add_text()
+#     elif choice == "2":
+#         view_file()
+#     elif choice == "3":
+#         print("Exiting..")
+#         break
+#     else:
+#         print("Invalid Choice")
+
+
+#Q10 — Final Practical Challenge
+
+import random
+import datetime
+
+messages = [
+    "I am Learning Python",
+    "I want to become a Software Engineer",
+    "Built My Career Well"
+]
+
+selected = random.choice(messages)
+print(selected)
+
+now = datetime.datetime.now()
+print(now.strftime("%d %b, %Y")) 
